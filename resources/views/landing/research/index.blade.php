@@ -1,8 +1,8 @@
 @extends('landing.layouts.app')
 {{-- Head --}}
 @section('title', 'Penelitian - '. env('APP_NAME'))
-@section('meta_description', env('APP_NAME').' Universitas Potensi Utama aktif dalam penelitian yang mendorong inovasi di bidang ilmu hukum, berkontribusi pada perkembangan akademik dan industri')
-@section('meta_keywords', 'penelitian fhukum upu, penelitian fhukum potensi utama, penelitian fhukum, penelitian fhukum potensi utama')
+@section('meta_description', env('APP_NAME').' Universitas Potensi Utama aktif dalam penelitian yang mendorong inovasi di bidang ilmu psikologi, berkontribusi pada perkembangan akademik dan industri')
+@section('meta_keywords', 'penelitian fpsi upu, penelitian fpsi potensi utama, penelitian fpsi, penelitian fpsi potensi utama')
 @section('canonical', env('APP_URL').'/penelitian')
 
 @section('content')
