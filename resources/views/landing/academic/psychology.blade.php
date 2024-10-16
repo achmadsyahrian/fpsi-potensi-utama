@@ -1,8 +1,8 @@
 @extends('landing.layouts.app')
 {{-- Head --}}
-@section('title', 'Program Studi Akuntansi - '. env('APP_NAME'))
-@section('meta_description', 'Program Studi Akuntansi - '. env('APP_NAME'))
-@section('meta_keywords', 'akuntansi upu, akuntansi potensi utama, visi misi akuntansi upu, berita akuntansi potensi utama')
+@section('title', 'Program Studi Psikologi S1 - '. env('APP_NAME'))
+@section('meta_description', 'Program Studi psikologi - '. env('APP_NAME'))
+@section('meta_keywords', 'psikologi upu, psikologi potensi utama, visi misi psikologi upu, berita psikologi potensi utama')
 @section('canonical', env('APP_URL').'/program-studi/akuntansi')
 @section('content')
 
