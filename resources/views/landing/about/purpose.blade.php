@@ -37,24 +37,20 @@
                     <div class="post-details-content mb-100">
                         <h1 class="mb-30">Visi & Misi</h1>
                         <h4 class="mb-30">Visi</h4>
-                        <p>"Pada Tahun 2035 menjadi Fakultas yang Unggul dalam penguasaan dan pengembangan ilmu hukum yang berbasis Teknologi dan Informasi di tingkat Nasional dan berperan aktif di tingkat Internasional".</p>
+                        <p>"Pada Tahun 2025 Menjadi Universitas Yang Unggul di Tingkat Sumatera dan Mampu Berperan Serta di Tingkat Nasional".</p>
                         <h4 class="mb-30">Misi</h4>
                         <table class="text-secondary mb-30" style="border-collapse: collapse; width: 100%;">
                             <tr>
                                 <td style="width: 3%; vertical-align: top;">1.</td>
-                                <td>Melaksanakan pendidikan dan pengajaran dibidang ilmu hukum yang berkualitas berbasis teknologi dan informasi di tingkat nasional dan beorientasi tingkat internasional.</td>
+                                <td>Melaksanakan Pendidikan yang Berkualitas di tinggat Sumatera.</td>
                             </tr>
                             <tr>
                                 <td style="vertical-align: top;">2.</td>
-                                <td>Melaksanakan penelitian dibidang ilmu hukum berbasis teknologi dan informasi yang mendapatkan rekognisi ditingkat nasional dan intemasional.</td>
+                                <td>Melaksanakan Penelitian yang Dapat di Publikasikan pada Tingkat nasional.</td>
                             </tr>
                             <tr>
                                 <td style="vertical-align: top;">3.</td>
-                                <td>Melaksanakan kegiatan pengabdian kepada masyarakat dibidang ilmu hukum berbasis teknologi dan informasi yang bermanfaat bagi masyarakat.</td>
-                            </tr>
-                            <tr>
-                                <td style="vertical-align: top;">4.</td>
-                                <td>Melaksanakan kerjasama dengan berbagai instansi pemerintah dan swasta tingkat Nasional dan Intemasional yang mendukung tata kelola Tridharma perguruan tinggi bidang hukum yang berbasis teknologi dan informasi.</td>
+                                <td>Melaksanakan Kegiatan dan layanan yang Bermanfaat bagi Masyarakat.</td>
                             </tr>
                         </table>
                     </div>

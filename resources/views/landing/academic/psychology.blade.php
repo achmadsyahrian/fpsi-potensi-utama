@@ -34,7 +34,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-12">
-                    <div class="post-details-content mb-100">
+                    {{-- <div class="post-details-content mb-100">
                         <h1 class="mb-30">Visi Misi</h1>
                         <h4 class="mb-30">Visi</h4>
                         <p>"Pada tahun 2035 menjadi progam studi hukum yang unggul di bidang peminatan hukum teknologi informasi, hukum pidana, hukum perdata yang berbasis teknologi dan informasi dengan menghasilkan lulusan yang beretika profesional di tingkat nasional serta berperan aktif tingkat intemasional".</p>
@@ -59,7 +59,7 @@
                                 <td>Menjalin kerjasama dengan lembaga-lembaga Nasional, Universitas dan Lembaga Intemasional yang berbasis teknologi informasi.</td>
                             </tr>
                         </table>
-                    </div>
+                    </div> --}}
 
                     {{-- <div class="post-details-content mb-100">
                         <h1 class="mb-30">Kurikulum {{$title}}</h1>

@@ -15,8 +15,8 @@ class CategorySeeder extends Seeder
     {
         // Menambahkan Kategori Default
         Category::create([
-            'name' => 'Hukum S1',
-            'slug' => 'hukum-s1',
+            'name' => 'Psikologi S1',
+            'slug' => 'psikologi-s1',
         ]);
         
         Category::create([

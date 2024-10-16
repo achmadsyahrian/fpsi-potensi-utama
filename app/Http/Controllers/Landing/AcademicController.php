@@ -8,8 +8,8 @@ use Illuminate\Http\Request;
 
 class AcademicController extends Controller
 {
-    public function law() {
-        $title = "Hukum S1";
+    public function psychology() {
+        $title = "Psikologi S1";
         
         $latestPosts = Post::where('type', 'news')
             ->where('is_published', 1)
@@ -23,7 +23,7 @@ class AcademicController extends Controller
             ->take(3)
             ->get();
 
-        return view('landing.academic.law', compact('latestPosts', 'title'));
+        return view('landing.academic.psychology', compact('latestPosts', 'title'));
     }
     
 }

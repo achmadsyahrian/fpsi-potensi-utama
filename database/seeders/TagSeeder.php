@@ -14,8 +14,8 @@ class TagSeeder extends Seeder
     public function run(): void
     {
         Tag::create([
-            'name' => 'Hukum S1',
-            'slug' => 'hukum-s1',
+            'name' => 'Psikologi S1',
+            'slug' => 'psikologi-s1',
         ]);
 
         Tag::create([

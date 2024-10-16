@@ -39,8 +39,8 @@ Route::group(['namespace' => 'Landing', 'as' => 'landing.'], function() {
         })->name('purpose');
 
         // Program Studi
-            // Hukum S1
-            Route::get('/program-studi/hukum-s1', [AcademicController::class, 'law'])->name('academic.law');
+            // Psikologi S1
+            Route::get('/program-studi/psikologi-s1', [AcademicController::class, 'psychology'])->name('academic.psychology');
 
         // Akreditasi
         // Route::view('/akreditasi', 'landing.about.accreditation')->name('accreditation');
