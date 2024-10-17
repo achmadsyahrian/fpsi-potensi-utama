@@ -28,7 +28,7 @@ class GenerateSitemap extends Command
                 ->setPriority(0.8)
             )
             // Psikologi S1
-            ->add(Url::create('/psikologi-s1')
+            ->add(Url::create('/program-studi/psikologi-s1')
                 ->setLastModificationDate(now())
                 ->setChangeFrequency(Url::CHANGE_FREQUENCY_MONTHLY)
                 ->setPriority(0.8)
@@ -47,6 +47,12 @@ class GenerateSitemap extends Command
             )
             // Penelitian
             ->add(Url::create('/penelitian')
+                ->setLastModificationDate(now())
+                ->setChangeFrequency(Url::CHANGE_FREQUENCY_MONTHLY)
+                ->setPriority(0.8)
+            )
+            // Administrasi
+            ->add(Url::create('/administrasi')
                 ->setLastModificationDate(now())
                 ->setChangeFrequency(Url::CHANGE_FREQUENCY_MONTHLY)
                 ->setPriority(0.8)
