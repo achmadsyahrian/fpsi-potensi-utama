@@ -36,7 +36,7 @@
                                     <!-- Blog Content -->
                                     <div class="blog-content">
                                         <span class="post-date">{{ $latestNews[0]->created_at->format('M j, Y') }}</span>
-                                        <a href="{{route('landing.news.show', $latestNews[0]->slug)}}" class="post-title">{{ $latestNews[0]->title }}</a>
+                                        <a href="{{route('landing.news.show', $latestNews[0]->slug)}}" class="post-title">{{ \Illuminate\Support\Str::limit($latestNews[0]->title, 80, '...') }}</a>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@
                                     <!-- Blog Content -->
                                     <div class="blog-content">
                                         <span class="post-date">{{ $latestNews[1]->created_at->format('M j, Y') }}</span>
-                                        <a href="{{route('landing.news.show', $latestNews[1]->slug)}}" class="post-title">{{ $latestNews[1]->title }}</a>
+                                        <a href="{{route('landing.news.show', $latestNews[1]->slug)}}" class="post-title">{{ \Illuminate\Support\Str::limit($latestNews[1]->title, 80, '...') }}</a>
                                     </div>
                                 </div>
                                 <!-- Single Blog Post Area -->
@@ -83,7 +83,7 @@
                                     <!-- Blog Content -->
                                     <div class="blog-content">
                                         <span class="post-date">{{ $latestNews[2]->created_at->format('M j, Y') }}</span>
-                                        <a href="{{route('landing.news.show', $latestNews[2]->slug)}}" class="post-title">{{ $latestNews[2]->title }}</a>
+                                        <a href="{{route('landing.news.show', $latestNews[2]->slug)}}" class="post-title">{{ \Illuminate\Support\Str::limit($latestNews[2]->title, 80, '...') }}</a>
                                     </div>
                                 </div>
                             </div>
@@ -204,7 +204,7 @@
                                 <i class="fa fa-play" aria-hidden="true"></i>
                             </a>
 
-                            <span class="published-date">03 Mar, 2020p</span>
+                            <span class="published-date">03 Mar, 2020</span>
                             <h3 class="video-title">Tentang Kehidupan Kampus</h3>
                         </div>
                     </div>
@@ -260,7 +260,7 @@
         </div>
     </div>
 
-    {{-- <div class="col-12">
+    <div class="col-12">
         <div class="elements-title mb-30 text-center">
             <h2>Keanggotaan dan Kerjasama</h2>
         </div>
@@ -279,8 +279,8 @@
                             <div class="single-blog-post style-3">
                                 <div class="blog-thumbnail">
                                     <a href="#" ><img
-                                            src="{{ asset('landing/assets/img/kerjasama-img/1.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Konsulat Japan" title="Konsulat Japan"></a>
+                                            src="{{ asset('landing/assets/img/kerjasama-img/Logo-1.png') }}"
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="Designer DNA" title="Designer DNA"></a>
                                 </div>
                             </div>
 
@@ -288,8 +288,8 @@
                             <div class="single-blog-post style-3">
                                 <div class="blog-thumbnail">
                                     <a href="#"><img
-                                            src="{{ asset('landing/assets/img/kerjasama-img/2.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Konsulat Timor Leste" title="Konsulat Timor Leste"></a>
+                                            src="{{ asset('landing/assets/img/kerjasama-img/Logo-2.png') }}"
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="Renovation" title="Renovation"></a>
                                 </div>
                             </div>
 
@@ -297,8 +297,8 @@
                             <div class="single-blog-post style-3">
                                 <div class="blog-thumbnail">
                                     <a href="#"><img
-                                            src="{{ asset('landing/assets/img/kerjasama-img/3.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Konsulat Malaysia" title="Konsulat Malaysia"></a>
+                                            src="{{ asset('landing/assets/img/kerjasama-img/Logo-3.png') }}"
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="Flashlight" title="Flashlight"></a>
                                 </div>
                             </div>
 
@@ -306,90 +306,8 @@
                             <div class="single-blog-post style-3">
                                 <div class="blog-thumbnail">
                                     <a href="#"><img
-                                            src="{{ asset('landing/assets/img/kerjasama-img/4.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Reviewnesia" title="Reviewnesia"></a>
-                                </div>
-                            </div>
-
-                            <!-- Single News Area -->
-                            <div class="single-blog-post style-3">
-                                <div class="blog-thumbnail">
-                                    <a href="#"><img
-                                            src="{{ asset('landing/assets/img/kerjasama-img/5.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Konsulat India" title="Konsulat India"></a>
-                                </div>
-                            </div>
-
-                            <!-- Single News Area -->
-                            <div class="single-blog-post style-3">
-                                <div class="blog-thumbnail">
-                                    <a href="#"><img
-                                            src="{{ asset('landing/assets/img/kerjasama-img/6.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Konsulat Jerman" title="Konsulat Jerman"></a>
-                                </div>
-                            </div>
-
-                            <div class="single-blog-post style-3">
-                                <div class="blog-thumbnail">
-                                    <a href="#"><img
-                                            src="{{ asset('landing/assets/img/kerjasama-img/7.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Konsulat Amerika" title="Konsulat Amerika"></a>
-                                </div>
-                            </div>
-
-                            <div class="single-blog-post style-3">
-                                <div class="blog-thumbnail">
-                                    <a href="#"><img
-                                            src="{{ asset('landing/assets/img/kerjasama-img/8.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="UNHCR" title="UNHCR"></a>
-                                </div>
-                            </div>
-
-                            <div class="single-blog-post style-3">
-                                <div class="blog-thumbnail">
-                                    <a href="#"><img
-                                            src="{{ asset('landing/assets/img/kerjasama-img/9.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Universitas Al Muslim" title="Universitas Al Muslim"></a>
-                                </div>
-                            </div>
-
-                            <div class="single-blog-post style-3">
-                                <div class="blog-thumbnail">
-                                    <a href="#"><img
-                                            src="{{ asset('landing/assets/img/kerjasama-img/10.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Walhi" title="Walhi"></a>
-                                </div>
-                            </div>
-
-                            <div class="single-blog-post style-3">
-                                <div class="blog-thumbnail">
-                                    <a href="#"><img
-                                            src="{{ asset('landing/assets/img/kerjasama-img/11.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="HI-PM" title="HI-PM"></a>
-                                </div>
-                            </div>
-
-                            <div class="single-blog-post style-3">
-                                <div class="blog-thumbnail">
-                                    <a href="#"><img
-                                            src="{{ asset('landing/assets/img/kerjasama-img/12.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Grand Inna Medan" title="Grand Inna Medan"></a>
-                                </div>
-                            </div>
-
-                            <div class="single-blog-post style-3">
-                                <div class="blog-thumbnail">
-                                    <a href="#"><img
-                                            src="{{ asset('landing/assets/img/kerjasama-img/13.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Alliance Francaise Medan" title="Alliance Francaise Medan"></a>
-                                </div>
-                            </div>
-
-                            <div class="single-blog-post style-3">
-                                <div class="blog-thumbnail">
-                                    <a href="#"><img
-                                            src="{{ asset('landing/assets/img/kerjasama-img/14.png') }}"
-                                            style="width:200px; height: 100px; object-fit:contain;" alt="Yagasu" title="Yagasu"></a>
+                                            src="{{ asset('landing/assets/img/kerjasama-img/Logo-4.png') }}"
+                                            style="width:200px; height: 100px; object-fit:contain;" alt="In Film We Trust" title="In Film We Trust"></a>
                                 </div>
                             </div>
 
@@ -398,6 +316,6 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
 
 @endsection
