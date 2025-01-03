@@ -2,42 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
     <url>
         <loc>http://fpsi-potensi-utama.test</loc>
-        <lastmod>2024-10-25T03:56:48+00:00</lastmod>
+        <lastmod>2025-01-03T03:57:09+00:00</lastmod>
 
             </url>
     <url>
         <loc>http://fpsi-potensi-utama.test/visi-misi</loc>
-        <lastmod>2024-10-25T03:56:48+00:00</lastmod>
+        <lastmod>2025-01-03T03:57:09+00:00</lastmod>
 
             </url>
     <url>
         <loc>http://fpsi-potensi-utama.test/program-studi/psikologi-s1</loc>
-        <lastmod>2024-10-25T03:56:48+00:00</lastmod>
+        <lastmod>2025-01-03T03:57:09+00:00</lastmod>
 
             </url>
     <url>
         <loc>http://fpsi-potensi-utama.test/berita</loc>
-        <lastmod>2024-10-25T03:56:48+00:00</lastmod>
+        <lastmod>2025-01-03T03:57:09+00:00</lastmod>
 
             </url>
     <url>
         <loc>http://fpsi-potensi-utama.test/pengumuman</loc>
-        <lastmod>2024-10-25T03:56:48+00:00</lastmod>
+        <lastmod>2025-01-03T03:57:09+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://fpsi-potensi-utama.test/pengumuman/skripsi</loc>
+        <lastmod>2025-01-03T03:57:09+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://fpsi-potensi-utama.test/pengumuman/pkl</loc>
+        <lastmod>2025-01-03T03:57:09+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://fpsi-potensi-utama.test/pengumuman/perwalian</loc>
+        <lastmod>2025-01-03T03:57:09+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://fpsi-potensi-utama.test/pengumuman/krs</loc>
+        <lastmod>2025-01-03T03:57:09+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://fpsi-potensi-utama.test/pengumuman/ujian</loc>
+        <lastmod>2025-01-03T03:57:09+00:00</lastmod>
 
             </url>
     <url>
         <loc>http://fpsi-potensi-utama.test/penelitian</loc>
-        <lastmod>2024-10-25T03:56:48+00:00</lastmod>
-
-            </url>
-    <url>
-        <loc>http://fpsi-potensi-utama.test/administrasi</loc>
-        <lastmod>2024-10-25T03:56:48+00:00</lastmod>
+        <lastmod>2025-01-03T03:57:09+00:00</lastmod>
 
             </url>
     <url>
         <loc>http://fpsi-potensi-utama.test/berita/potensi-utama-medan-sukses-gelar-pameran-namarupa-art-exhibition</loc>
-        <lastmod>2024-10-25T03:56:48+00:00</lastmod>
+        <lastmod>2025-01-03T03:57:09+00:00</lastmod>
 
             </url>
 </urlset>
